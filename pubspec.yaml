@@ -1,0 +1,27 @@
+name: flutter_projects
+description: "It's my first flutter project"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  camera: ^0.9.4+5
+
+flutter:
+  assets:
+    - assets/img.png
+
+  uses-material-design: true
